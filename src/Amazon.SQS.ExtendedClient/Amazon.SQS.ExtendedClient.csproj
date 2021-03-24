@@ -2,19 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.1;net45</TargetFrameworks>
-		<AssemblyVersion>1.3.0</AssemblyVersion>
-		<AssemblyFileVersion>1.0.0</AssemblyFileVersion>
-		<AssemblyTitle>Amazon.SQS.ExtendedClient</AssemblyTitle>
-		<Description>Extension to Amazon SQS that adds support for sending and receiving messages greater than 256K</Description>
-		<Authors>Pedro Pilz</Authors>
-		<PackageId>Amazon.SQS.ExtendedClient</PackageId>
-		<PackageTags>AWS Amazon SQS cloud</PackageTags>
-		<PackageProjectUrl>https://github.com/consultoriaqualiit/amazon-sqs-net-extended-client-lib</PackageProjectUrl>
-		<PackageLicenseUrl>https://github.com/consultoriaqualiit/amazon-sqs-net-extended-client-lib/blob/master/LICENSE</PackageLicenseUrl>
-		<RepositoryUrl>https://github.com/consultoriaqualiit/amazon-sqs-net-extended-client-lib</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<Version>1.3.0</Version>
-		<PackOnBuild>true</PackOnBuild>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(TargetFrameworkVersion)' == 'net45'">
 		<DefineConstants>NET45</DefineConstants>
